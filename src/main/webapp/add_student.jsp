@@ -79,7 +79,6 @@
                 <label for="student_code">Student Code <span class="required">*</span></label>
                 <input type="text" id="student_code" name="student_code" 
                        placeholder="e.g., SV001" required 
-                       pattern="[A-Z]{2}[0-9]{3,}"
                        title="Format: 2 uppercase letters + 3+ digits">
             </div>
             
@@ -91,7 +90,7 @@
             
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" 
+                <input type="text" id="email" name="email" 
                        placeholder="student@email.com">
             </div>
             
